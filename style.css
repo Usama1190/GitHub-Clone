@@ -11,14 +11,26 @@
 body {
     margin: 0;
     padding: 0;
-    /* background-image: url(git\ hub-10-image.png);
-    background-repeat: no-repeat;
-    background-position: top right; */
     background-color: #0d1117;
     font-family: 'Poppins', sans-serif;
 }
 
 /* NAV START */
+
+.main-page 
+{
+    overflow: hidden;
+}
+
+.main-page #bg-1
+{
+    background-color: transparent;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 650px;
+    width: 950px;
+    height: 600px;
+}
 
 .main-page .nav
 {
@@ -31,7 +43,7 @@ body {
 
 .main-page .nav .right-nav
 {
-    margin-left: 90px;
+    margin-left: 110px;
 }
 
 .main-page .nav .nav-item
@@ -92,151 +104,48 @@ body {
 {
     color: #aaaaaa;
 }
-/* NAVBAR END */
+/* NAV END */
 
-/* SEC1 START */
-.main-page .sec1 
+/* SECTION-1 START */
+.main-page .section-1
 {
-    display: flex;
-}
-
-.main-page .sec1 .circle
-{
-    position: absolute;
-    color: #5f5f5f;
-    font-size: 13px;
-    height: 15px;
-    margin: 130px 0 0 63px;
-    /* border: 2px solid #fff; */
-}
-
-.main-page .side-line1
-{
-    margin: 153px 40px 0 65px;
-    width: 3px;
-    height: 260px;
-    box-shadow: 1px 1px 1px var(--purple-2--);
-    background-color: var(--purple-2--);
-    animation: colorFiller 1s 0.02s 1 ease-in-out;
-}
-
-@keyframes colorFiller {
-    from {
-        height: 0;
-        box-shadow: 1px 1px 1px #000000;
-        background-color: #000000;
-    }
-    to {
-        height: 260px;
-        box-shadow: 1px 1px 1px var(--purple-2--);
-        background-color: var(--purple-2--);
-    }
-}
-
-.main-page .sec1 .code
-{
-    position: absolute;
-    color: #d8d8d8;
-    font-size: 22px;
-    height: 15px;
-    padding: 20px;
-    /* background-color: var(--purple-2--); */
-    border-radius: 50%;
-    margin: 420px 0 0 36px;
-    box-shadow: 1px 1px 5px var(--purple-2--);
-    /* border: 2px solid #fff; */
-}
-
-.main-page .side-line2
-{
-    position: absolute;
-    margin: 480px 40px 0 65px;
-    width: 3px;
-    height: 260px;
-    box-shadow: 1px 1px 1px var(--purple-2--);
-    background-color: var(--purple-2--);
-    animation: colorFiller 1s 1.02s 1 ease-in-out;
-}
-
-.main-page .content1
-{
-    margin-top: 65px;
+    margin-top: 140px;
     width: 100%;
-    /* border: 1px solid #fff; */
+    height: 100%;
+    display: flex;
+    border: 2px solid #fff;
 }
 
-.main-page .content1 h1 
+.main-page .section-1 .animate
+{
+    width: 30px;
+    height: 200px;
+    margin: 0 20px 0 20px;
+    border: 2px solid #fff;
+}
+
+.main-page .section-1 .content-1 
+{
+    width: 70%;
+    height: 100%;
+    border: 2px solid #fff;
+}
+
+.main-page .section-1 .content-1 h1
+{
+    font-family: 'BIZ UDPGothic', sans-serif;
+    margin-top: 0;
+    color: #fff;
+    font-size: 500%;
+    line-height: 105px;
+}
+
+.main-page .section-1 .content-1 p
 {
     color: #fff;
-    font-size: 6em;
-    line-height: 85px;
 }
 
-.main-page .content1 p
+.main-page .section-1 h2
 {
-    color: #7e7e7e;
-    font-size: 22px;
-    margin-top: -50px;
-    word-spacing: 2px;
-    /* letter-spacing: 2px; */
-    /* border: 2px solid #ffffff; */
-}
-
-.main-page .content1 .btn-group .btn2, .btn3
-{
-    padding: 15px;
-    color: var(--color-white);
-    margin-top: 80px;
-    font-size: 14px;
-    width: 165px;
-    float: left;
-    text-decoration: none;
-    /* border: 1px solid var(--color-white); */
-}
-
-.main-page .content1 .btn-group .btn2
-{
-    font-weight: 400;
-    background-color: var(--color-white);
-    color: #3f3e3e;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-}
-
-.main-page .content1 .btn-group .btn3
-{
-    font-weight: 700;
-    background-color: var(--purple-3--);
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    cursor: pointer;
-}
-
-.main-page .content1 .line
-{
-    position: absolute;
-    height: 48px;
-    width: 1px;
-    margin: 80px 15px 0 15px;
-    background-color: #cac9c9;
-}
-
-.main-page .content1 .btn4
-{
-    margin: 77px 0 0 35px;
-    position: absolute;
-    width: 210px;
-    padding: 15px;
-    font-weight: 700;
-    font-size: 14px;
-    color: var(--color-white);
-    text-decoration: none;
-    border-radius: 6px;
-    border: 2px solid var(--purple-3--);
-    transition: all 0.3s;
-}
-
-.main-page .content1 .btn4:hover 
-{
-    border: 2px solid var(--color-white);
+    color: #fff;
 }
