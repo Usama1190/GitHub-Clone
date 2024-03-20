@@ -5,10 +5,12 @@
     --purple-1--: #743fc7;
     --purple-2--: #7c72ff;
     --purple-3--: #7641c7;
+    --text-color--: #758d97;
 }
 
 
 body {
+    /* overflow: hidden; */
     margin: 0;
     padding: 0;
     background-color: #0d1117;
@@ -19,6 +21,7 @@ body {
 
 .main-page 
 {
+    width: 100%;
     overflow: hidden;
 }
 
@@ -48,6 +51,7 @@ body {
 
 .main-page .nav .nav-item
 {
+    transition: all 0.2s ease-in-out;
     margin: 8px;
     cursor: pointer;
 }
@@ -71,6 +75,7 @@ body {
 
 .main-page .nav .signin
 {
+    transition: all 0.2s ease-in-out;
     padding: 8px;
     text-decoration: none;
     border-radius: 6px;
@@ -87,6 +92,7 @@ body {
 .main-page .nav .signup
 {
     padding: 8px;
+    transition: all 0.2s ease-in-out;
     text-decoration: none;
     border-radius: 6px;
     border: 1px solid var(--color-white);
@@ -109,11 +115,12 @@ body {
 /* SECTION-1 START */
 .main-page .section-1
 {
+    margin-left: 16px;
     margin-top: 140px;
     width: 100%;
     height: 100%;
     display: flex;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
 }
 
 .main-page .section-1 .animate
@@ -126,9 +133,9 @@ body {
 
 .main-page .section-1 .content-1 
 {
-    width: 70%;
+    width: 71%;
     height: 100%;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
 }
 
 .main-page .section-1 .content-1 h1
@@ -140,12 +147,144 @@ body {
     line-height: 105px;
 }
 
-.main-page .section-1 .content-1 p
+.main-page .section-1 .content-1 .para1
 {
-    color: #fff;
+    font-size: 22px;
+    color: var(--text-color--);
+    letter-spacing: 1px;
+    margin-top: -50px;
 }
 
 .main-page .section-1 h2
 {
     color: #fff;
+}
+
+.main-page .section-1 .btn-group
+{
+    margin-top: 80px;
+}
+
+.main-page .section-1 .btn-group #email, #sign, #trial
+{
+    cursor: pointer;
+    padding: 10px;
+}
+
+.main-page .section-1 .btn-group #sign
+{
+    border-color: transparent;
+    background-color: var(--purple-1--);
+    width: 190px;
+    padding: 13px;
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 16px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-left: -7px;
+}
+
+.main-page .section-1 .btn-group #hr1
+{
+    margin: 0 10px;
+    display: inline-block;
+    height: 43px;
+    position: absolute;
+}
+
+.main-page .section-1 .btn-group #trial
+{
+    height: 49px;
+    transition: all 0.2s ease-in-out;
+    align-items: center;
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid var(--purple-1--);
+    width: 270px;
+    padding: 13px;
+    margin-left: 26px;
+    border-radius: 6px;
+}
+
+.main-page .section-1 .btn-group #trial .sign-minus
+{
+    visibility: hidden;
+}
+
+/* .main-page .section-1 .btn-group #trial .sign-minus:hover
+{
+    visibility: visible;
+} */
+
+.main-page .section-1 .btn-group #trial:hover 
+{
+    border: 1px solid var(--color-white);
+}
+
+.main-page .section-1 .btn-group #email 
+{
+    padding: 13px;
+    font-weight: 700;
+    border-color: transparent;
+    width: 160px;
+    color: var(--color-black);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.main-page .section-1 .btn-group #email:focus
+{
+    border: 2px solid rgb(24, 24, 255);
+}
+
+.main-page .section-1 .content-1 .para2
+{
+    letter-spacing: 1px;
+    color: var(--text-color--);
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.main-page .section-1 .content-1 .images
+{
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-page .section-1 .content-1 .images
+{
+    margin-top: 30px;
+}
+
+.main-page .section-1 .content-1 .prod
+{
+    margin-top: 120px;
+}
+
+.main-page .section-1 .content-1 .head-green
+{
+    margin-top: -3px;
+    font-size: 45px;
+    color: green;
+}
+
+.main-page .section-1 .content-1 .head-1
+{
+    margin-top: -35px;
+    font-size: 45px;
+    color: var(--color-white);
+}
+
+.main-page .section-1 .content-1 #image2
+{
+    margin-top: 130px;
+    margin-left: 350px;
+    background-color: transparent;
+    position: absolute;
+    width: 700px;
+    height: 500px;
 }
