@@ -19,6 +19,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&display=swap" rel="stylesheet">
 
+    <!-- AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body>
     <!-- MAIN-PAGE START-->
@@ -57,17 +61,31 @@
 
         </div>
         <!-- NAV END -->
+
+        <!-- NAV STICKY START -->
+        <div class="nav-sticky">
+            <a href="#">Productivity</a>
+            <a href="#">Collaboration</a>
+            <a href="#">Security</a>
+            <div class="nav-sticky-right">
+                <a href="#">Start a free interprise trial <span class="fa fa-angle-right"></span></a>
+                <a href="#">Sign up for GitHub <span class="fa fa-angle-right"></span></a>
+            </div>
+        </div>
         
         <!-- SECTION 1 START -->
         <section class="section-1">
 
             <!-- ANIMATED LINES START -->
             <div class="animate">
-                <span class=""></span>
+                <span class="fa fa-circle-o zero"></span>
                 <div class="line-1"></div>
-                <span class=""></span>
+
+                <span class="fa fa-angle-left left"></span>
+                <span class="fa fa-angle-right right"></span>
+
                 <div class="line-2"></div>
-                <span class=""></span>
+                <span class="fa fa-briefcase briefcase"></span>
                 <div class="line-3"></div>
             </div>
             <!-- ANIMATED LINES END -->
@@ -98,7 +116,7 @@
                 </div>
                 <!-- IMAGES END -->
 
-                <img src="assets/githubimage-2-removebg-preview.png" alt="" id="image2">
+                <img src="assets/githubimage-2-removebg-preview.png" alt="circle-image" id="image2">
                 <h2 class="prod">Productivity</h2>
                 <h2 class="head-green">Accelerate innovation</h2>
                 <h3 class="head-1">Our AI-powered platform <br>increases the pace of <br> software development.</h3>
@@ -106,6 +124,16 @@
 
         </section>
         <!-- SECTION 1 END -->
+
+
+        <!-- SECTION 2 START -->    
+        <section class="section-2">
+            <div class="content-2">
+                <img src="./assets/github-ani.png" alt="abs" class="ani-image-1">
+                <img src="assets/github-img-right.png" alt="coding" class="ani-image-2">
+            </div>
+        </section>
+        <!-- SECTION 2 END -->
 
     </div>
     <!-- MAIN-PAGE END-->
