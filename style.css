@@ -11,7 +11,6 @@
 
 
 body {
-    /* overflow: hidden; */
     margin: 0;
     padding: 0;
     background-color: var(--body--);
@@ -119,11 +118,12 @@ body {
 
 .main-page .nav-sticky
 {
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     background-color: var(--body--);
     padding: 20px;
     position: absolute;
-    margin-top: 850px;
+    /* margin-top: 850px; */
+    margin-top: 780px;
     font-size: 18px;
     /* display: none; */
 }
@@ -344,7 +344,7 @@ body {
 
 .main-page .section-2 .content-2 
 {
-    position: absolute;
+    /* position: absolute; */
     margin-right: 0;
     width: 95%;
     border: 2px solid #fff;
@@ -424,4 +424,100 @@ body {
 .main-page .section-1 .animate .line-3
 {
     height: 315px;
+}
+
+/* CONTENT-2 END */
+
+
+/* CONTENT-3 START */
+
+
+.main-page .section-2 .content-3
+{
+    width: 500px;
+    height: 800px;
+    border: 2px solid #fff;
+    display: flex;
+}
+
+.main-page .section-2 .content-3 .animate-2
+{
+    margin: 0 60px 0 40px;
+    width: 30px;
+    height: 100%;
+    border: 2px solid #fff;
+}
+
+.main-page .section-2 .content-3 .content-3-0
+{
+    width: 60%;
+    height: 100%;
+    border: 2px solid #fff;
+}
+
+.main-page .section-2 .content-3 .animate-2 .line-3-1
+{
+    margin: auto;
+    width: 2px;
+    height: 600px;
+    background-color: #fff;
+}
+
+.main-page .section-2 .content-3 .content-3-1
+{
+    margin-top: 80px;
+    width: 80%;
+    height: 100%;
+    border: 2px solid #fff;
+}
+
+.main-page .section-2 .content-3 .content-3-0 .content-3-1 .head-2
+{
+    color: #8b8b8b;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.main-page .section-2 .content-3 .content-3-0 .content-3-1 .span-2
+{
+    color: #fff;
+}
+
+.main-page .section-2 .content-3 .content-3-0 .content-3-1 .a-1
+{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+
+.main-page .section-2 .content-3 .content-3-0 .content-3-1 .a-1:hover
+{
+    border-bottom: 2px solid #fff;
+}
+
+.main-page .section-2 .content-3 .content-3-0 .content-3-2 .para-3
+{
+    margin-top: 150px;
+    display: inline-block;
+    color: green;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 13px;
+}
+
+.main-page .section-2 .content-3 .content-3-0 .content-3-2 .head-3
+{
+    color: green;
+    font-size: 55px;
+}
+
+.main-page .section-2 .content-3 .content-3-0 .content-3-2 .head-3 .h1
+{
+    line-height: -100px;
+}
+
+.main-page .section-2 .content-3 .content-3-0 .content-3-2 .head-4
+{
+    color: #fff;
 }
